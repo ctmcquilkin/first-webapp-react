@@ -8,10 +8,10 @@ var CurrentLocation = React.createClass({
 
 	render(){
 
-		var starClassName = "glyphicon glyphicon-star-empty";
+		var starClassName = "glyphicon glyphicon-heart-empty";
 
 		if(this.props.favorite){
-			starClassName = "glyphicon glyphicon-star";
+			starClassName = "glyphicon glyphicon-heart";
 		}
 
 		return (
